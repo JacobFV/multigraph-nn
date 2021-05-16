@@ -19,7 +19,7 @@ This neural networks tries to make an overreaching framework for processing
 
 Multigraph neural networks store recurrent state information in a backpropagatable graph. This prior might enable learning really cool things like
 - dynamically restructure chain graphs (phrases and sentences) into thought graphs by autoencoding
-- managing a $7 \pm 2$ element short-term memory grpah for RL agents
+- managing a 7±2 element short-term memory grpah for RL agents
 - how to compress and uncompress a large graph into a smaller graph
 
 Wouldn't it be cool to watch a string-like sentence graph fold onto itself into some complex looking thought graph?
