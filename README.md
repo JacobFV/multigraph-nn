@@ -48,4 +48,3 @@ multigraph-nn present a combinatorial suite of tools for quickly building any tr
 - Input processing functions `f_inp*` select what information to pass on to a graph's individual verteces. In many cases, you want both edge and previous node information, so select `f_inp_concat`. Alternatively to only use edge or vert information, select `f_inp_edges` or `f_inp_verts` respectively.
 - Pooling functions `f_pool*` pool information individually for each vertex. 
 - Vertex, edge, and adjacency update functions `f_v_up*`, `f_e_up*`, `f_adj_up*` perform vertex, edge, and adjacency updates respectively. If no update is necesary (fixed graph topology for example), they may be identity functions.
-- 
