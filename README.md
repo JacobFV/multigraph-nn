@@ -1,7 +1,7 @@
 # multigraph-nn
 One isn't enough. Multigraph neural networks are the way to go!
 
-**SUPPORT FOR CODE IN THIS REPOSITORY HAS BEEN DISCONTINUED** I recomment [Deep Graph Library](https://www.dgl.ai/).
+**SUPPORT FOR CODE IN THIS REPOSITORY HAS BEEN DISCONTINUED** Email me questions, but for production use, I recomment [Deep Graph Library](https://www.dgl.ai/).
 
 ## Cool features
 - typed nodes and edges
@@ -21,8 +21,9 @@ Multigraph neural networks store recurrent state information in a backpropagatab
 - dynamically restructure chain graphs (phrases and sentences) into thought graphs by autoencoding
 - managing a 7±2 element short-term memory grpah for RL agents
 - how to compress and uncompress a large graph into a smaller graph
+- learn optimal network topologies by optimizing the adjacency matrix
 
-Wouldn't it be cool to watch a string-like sentence graph fold onto itself into some complex looking thought graph?
+Wouldn't it be cool to watch a string-like sentence graph fold onto itself into some complex looking cognitive graph?  
 
 What this is not
 - A framework for artificial general intelligence. It may be useful though
@@ -35,6 +36,7 @@ What this is not
 3. For a ready made example, run `python3 src/recurrent_multigraph_net.py`. You may be able to modify this example to suite your applications. 
 
 Alternatively, you can use it in your own projects by 
+
 4. Launch jupyter notebook or open your favorite Python IDE
 5. type `import src as multigraph_nn`
 6. start building exotic neural networks!
